@@ -1,7 +1,7 @@
 # RLangAssignment
 R Programming Language Assignment for Multiverse of Languages: Intro to R Workshop.
 
-# Data Analysis and Visualization with R Welcome to the Data Analysis and Visualization with R project. In this project, you will work on various tasks related to R programming, data analysis, and visualization. To get started, please follow the instructions below. 
+## In this project, you will work on various tasks related to R programming, data analysis, and visualization. To get started, please follow the instructions below. 
 
 ## Getting Started 
 
