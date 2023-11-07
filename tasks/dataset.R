@@ -1,3 +1,5 @@
+# For help with solving the assignment, visit: "https://cran.r-project.org/web/packages/explore/vignettes/explore_mtcars.html"
+
 # Task 1: Load the "mtcars" dataset
 # - Load the "mtcars" dataset using the datasets package.
 # - Check the structure and summary of the dataset.
