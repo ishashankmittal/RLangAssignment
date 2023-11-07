@@ -9,7 +9,7 @@ context("Testing basics.R")
 
 # Test the sum calculation
 test_that("Sum calculation is correct", {
-    max_score <<- max_score + 2 # Assign the maximum score for this test
+    max_score <<- max_score + 5 # Assign the maximum score for this test
 
     sum_result <- calculate_sum(numeric_vector)
 
@@ -26,7 +26,7 @@ test_that("Sum calculation is correct", {
 
 # Test the mean calculation
 test_that("Mean calculation is correct", {
-    max_score <<- max_score + 2
+    max_score <<- max_score + 5
 
     mean_result <- calculate_mean(numeric_vector)
 
@@ -43,7 +43,7 @@ test_that("Mean calculation is correct", {
 
 # Test the median calculation
 test_that("Median calculation is correct", {
-    max_score <<- max_score + 2
+    max_score <<- max_score + 5
 
     median_result <- calculate_median(numeric_vector)
 
@@ -60,7 +60,7 @@ test_that("Median calculation is correct", {
 
 # Test the standard deviation calculation
 test_that("Standard deviation calculation is correct", {
-    max_score <<- max_score + 2
+    max_score <<- max_score + 5
 
     sd_result <- calculate_std_deviation(numeric_vector)
 
@@ -77,7 +77,7 @@ test_that("Standard deviation calculation is correct", {
 
 # Test the calculate_range function
 test_that("calculate_range function is correct", {
-    max_score <<- max_score + 2
+    max_score <<- max_score + 5
 
     range_result <- calculate_range(numeric_vector)
 

@@ -10,7 +10,7 @@ context("Testing loops.R")
 # Test for all five tasks
 
 test_that("Function tests", {
-    max_score <<- max_score + 10 # Assign the maximum score for this set of tests
+    max_score <<- max_score + 25 # Assign the maximum score for this set of tests
 
     # Test input
     test_input <- 10
@@ -20,7 +20,7 @@ test_that("Function tests", {
     result1 <- sum_even_numbers(test_input)
     expect_equal(result1, expected_result1)
     if (identical(result1, expected_result1)) {
-        total_score <<- total_score + 2 # Assign the score for this task
+        total_score <<- total_score + 5 # Assign the score for this task
         print("Task 1: Sum calculation test passed! (2 points)")
     } else {
         print("Task 1: Sum calculation test failed.")
@@ -31,7 +31,7 @@ test_that("Function tests", {
     result2 <- factorial_using_loop(test_input)
     expect_equal(result2, expected_result2)
     if (identical(result2, expected_result2)) {
-        total_score <<- total_score + 2 # Assign the score for this task
+        total_score <<- total_score + 5 # Assign the score for this task
         print("Task 2: Factorial calculation test passed! (2 points)")
     } else {
         print("Task 2: Factorial calculation test failed.")
@@ -43,7 +43,7 @@ test_that("Function tests", {
     result3 <- reverse_string(test_string)
     expect_equal(result3, expected_result3)
     if (identical(result3, expected_result3)) {
-        total_score <<- total_score + 2 # Assign the score for this task
+        total_score <<- total_score + 5 # Assign the score for this task
         print("Task 3: String reversal test passed! (2 points)")
     } else {
         print("Task 3: String reversal test failed.")
@@ -55,7 +55,7 @@ test_that("Function tests", {
     result4 <- count_vowels(test_string2)
     expect_equal(result4, expected_result4)
     if (identical(result4, expected_result4)) {
-        total_score <<- total_score + 2 # Assign the score for this task
+        total_score <<- total_score + 5 # Assign the score for this task
         print("Task 4: Vowel counting test passed! (2 points)")
     } else {
         print("Task 4: Vowel counting test failed.")
@@ -66,7 +66,7 @@ test_that("Function tests", {
     result5 <- generate_fibonacci(test_input)
     expect_equal(result5, expected_result5)
     if (identical(result5, expected_result5)) {
-        total_score <<- total_score + 2 # Assign the score for this task
+        total_score <<- total_score + 5 # Assign the score for this task
         print("Task 5: Fibonacci sequence test passed! (2 points)")
     } else {
         print("Task 5: Fibonacci sequence test failed.")
