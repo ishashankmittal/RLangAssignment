@@ -7,6 +7,7 @@ max_score <- 0
 
 # Run tests
 test_file("tests/test_basics.R")
+test_file("tests/test_loops.R")
 
 # Print the total score and maximum score
 cat(paste("\n\nTotal Score: ", total_score, "/", max_score, "\n\n"))
