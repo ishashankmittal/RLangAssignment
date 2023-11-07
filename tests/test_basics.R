@@ -16,7 +16,7 @@ test_that("Sum calculation is correct", {
     if (length(sum_result) == 0) {
         print("You have not completed the Sum calculation task.")
     } else if (sum_result == 15) {
-        total_score <<- total_score + 2 # Assign the score for this test
+        total_score <<- total_score + 5 # Assign the score for this test
         print("Sum calculation test passed! (2 points)")
     } else {
         print("Sum calculation test failed.")
@@ -33,7 +33,7 @@ test_that("Mean calculation is correct", {
     if (length(mean_result) == 0) {
         print("You have not completed the Mean calculation task.")
     } else if (mean_result == 3) {
-        total_score <<- total_score + 2
+        total_score <<- total_score + 5
         print("Mean calculation test passed! (2 points)")
     } else {
         print("Mean calculation test failed.")
@@ -50,7 +50,7 @@ test_that("Median calculation is correct", {
     if (length(median_result) == 0) {
         print("You have not completed the Median calculation task.")
     } else if (median_result == 3) {
-        total_score <<- total_score + 2
+        total_score <<- total_score + 5
         print("Median calculation test passed! (2 points)")
     } else {
         print("Median calculation test failed.")
@@ -67,7 +67,7 @@ test_that("Standard deviation calculation is correct", {
     if (length(sd_result) == 0) {
         print("You have not completed the Standard Deviation calculation task.")
     } else if (sd_result == 1.581) {
-        total_score <<- total_score + 2
+        total_score <<- total_score + 5
         print("Standard deviation calculation test passed! (2 points)")
     } else {
         print("Standard deviation calculation test failed.")
@@ -84,7 +84,7 @@ test_that("calculate_range function is correct", {
     if (length(range_result) == 0) {
         print("You have not completed the Range calculation task.")
     } else if (range_result == 4) {
-        total_score <<- total_score + 2
+        total_score <<- total_score + 5
         print("Range calculation test passed! (2 points)")
     } else {
         print("Range calculation test failed.")
