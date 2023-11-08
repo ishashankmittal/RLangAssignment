@@ -18,6 +18,8 @@ summary(mtcars)
 # - Display the plot.
 # Hint: You may want to use the ggplot2 package for creating and customizing the plot.
 
+library(ggplot2)
+
 # Task 3: Additional Customization
 # - Customize the bar plot further by adding labels, adjusting colors, and improving the appearance.
 # - Save the updated plot as a new image file.
